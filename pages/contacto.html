@@ -11,62 +11,43 @@
 </head>
 
 <body>
-     <div id="container">
-          <header>
-               <h1>TERAPIAS BOGOTA</h1>
-          </header>
-     </div>
-     <nav>
-          <section class="main-section" id="section">
-               <form action="">
 
-                    <div class="mb-3">
-                         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                       </div>
-                       <div class="mb-3">
-                         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                       </div>
+     <header>
+          <h1>TERAPIAS BOGOTA</h1>
+     </header>
+
+     <section class="main-section">
 
 
-                    <fieldset>
-                         <legend>CONTACTO</legend>
+          <legend>CONTACTO</legend>
+          <form class="form" action="form">
+               <div class="contacto">
+                    <ol class="form1" type="">
+                         <p>Déjanos tus datos y pronto un asesor se pondrá en contacto. </p>
+                         <li><label for="nombre">Nombre</label> <input type="text" name="nombre" id="nombre"
+                                   placeholder="Ingrese su nombre"></li>
+                         <li><label for="apellido">Apellido</label> <input type="text" name="apellido" id="apellido"
+                                   placeholder="Ingrese su apellido"></li>
+                         <li><label for="telefono">Telefono</label> <input type="text" name="telefono" id="telefono"
+                                   placeholder="Ingrese su telefono"></li>
+                         <li><label for="email">Email</label> <input type="text" name="email" id="email"
+                                   placeholder="Email"></li>
+                         <li><label for="atención">Preferencia de Atención</label> <select name="atención"
+                                   id="atención">
+                                   <option value="atencion">Domicilio</option>
+                                   <option value="atencion">Sede</option>
+                              </select></li>
+                    </ol>
 
-                         <div class="box-model">
-                              <p>Déjanos tus datos y pronto un asesor se pondrá en contacto.</p>
-                         </div>
-
-                         <br>
-                         <label for="nombre">Nombre</label>
-                         <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
-                         <br>
-                         <br>
-                         <label for="apellido">Apellido</label>
-                         <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
-
-                         <br>
-                         <br>
-                         <label for="telefono">Telefono</label>
-                         <input type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono">
-                         <br>
-                         <br>
-                         <label for="email">Email</label>
-                         <input type="text" name="email" id="email" placeholder="Email">
-
-                         <br>
-                         <br>
-                         <label for="atención">Preferencia de Atención</label>
-                         <select name="atención" id="atención">
-                              <option value="atencion">Domicilio</option>
-                              <option value="atencion">Sede</option>
+               </div>
+          </form>
 
 
-                    </fieldset>
-               </form>
-     </nav>
+
+
+
      </section>
 
      <footer id="footer"> Terapias Bogota 2024</footer>
-     <script src="./js/bootstrap.bundle.min.js"></script> 
+     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>

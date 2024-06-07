@@ -239,6 +239,20 @@ body {
         float: left;
     }
 
+    .form .contacto .form1 {
+        background-color: rgb(247, 245, 245);
+        border: 4px solid black;
+        width: 1250px;
+        height: 300px;
+        margin: 15px;
+        text-align: left;
+        line-height: 35px;
+        float: left;
+    }
+
+    legend{
+        text-align: center;
+    }
 
 
 /*
