@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -14,23 +14,7 @@
         font-family: Abel, sans-serif;
     }   
 
-    @media (max-width:800px){
-        body {
-            background-color: red;
-            font-family: Abel, sans-serif;
-        }
-        }
-        
-    
-    @media (min-width:100px){
-        body {
-            background-color: yellow;
-            font-family: Abel, sans-serif;
-        }
-        }
-
-
-header h1 {
+ header h1 {
     background-color: rgb(231, 231, 179);
     height: 100px;
     width: 1250px;
@@ -39,13 +23,14 @@ header h1 {
     color: black;
     border-bottom: 10px solid #fff;
     font-size: 50px;
-
+    
 }
 
 nav {
     background: #0000;
     height: 50px;
     border-bottom: 5px solid #fff;
+    
 }
 
 
@@ -58,9 +43,7 @@ nav {
  background-color: rgb(255, 255, 255);
  padding: 10px;
  border: 1px;
- min-width: 100px;
- max-width: 1300px;
- margin-bottom: 0px;
+
 }
 
 
@@ -73,8 +56,7 @@ nav {
     text-align: left;
     line-height: 15px;
     float: left;
-    min-width: 200px;
-    margin-bottom: 0px;
+   
 }
 
 .grid-layout2 {
@@ -87,9 +69,8 @@ nav {
     text-align: left;
     line-height: 150px;
     float: left;
-    align-items: end;
-    min-width: 200px;
-    margin-bottom: 0px;
+    align-items: left;
+   
 }
 
 
@@ -103,8 +84,7 @@ nav {
     text-align: left;
     line-height: 15px;
     float: left;
-    min-width: 200px;
-    margin-bottom: 0px;
+   
 }
 
 .grid-layout4 .section-2 {
@@ -117,8 +97,7 @@ nav {
     text-align: left;
     line-height: 25px;
     float: left;
-    min-width: 200px;
-    margin-bottom: 0px;
+    
 }
 
 .grid-layout5 .section-3 {
@@ -131,8 +110,7 @@ nav {
     text-align: left;
     line-height: 25px;
     float: left;
-    min-width: 200px;
-    margin-bottom: 0px;
+    
 }
 
 .grid-layout6 .section-4 {
@@ -145,8 +123,7 @@ nav {
     text-align: left;
     line-height: 25px;   
     float: left;
-    min-width: 200px;
-    margin-bottom: 0px;
+ 
 }
 
 .grid-layout7 .form1 {
@@ -159,8 +136,7 @@ nav {
     text-align: left;
     line-height: 25px;
     float: left;
-    min-width: 200px;
-    margin-bottom: 0px;
+  
 }
 
 .grid-layout8 .form1 {
@@ -173,8 +149,7 @@ nav {
     text-align: left;
     line-height: 25px;
     float: left;
-    min-width: 200px;
-    margin-bottom: 0px;
+   
 }
 
 .terapia .img{
@@ -186,6 +161,9 @@ nav {
     text-align: center;
     line-height: 10px;
     float: left;
+    min-width: 500px;
+    max-width: 1300px;
+    margin-bottom: 0px;
 }
 
 
@@ -198,6 +176,10 @@ nav {
     text-align: left;
     line-height: 25px;
     float: left;
+    min-width: 500px;
+    max-width: 1300px;
+    margin-bottom: 0px;
+
 }
 
 .terapia2 .terapia2 {
@@ -209,7 +191,7 @@ nav {
     text-align: left;
     line-height: 25px;
     float: left;
-
+  
 }
 
 
@@ -222,6 +204,8 @@ nav {
         text-align: left;
         line-height: 20px;
         float: left;
+        
+
     } 
 
 
@@ -234,6 +218,7 @@ nav {
         text-align: left;
         line-height: 25px;
         float: left;
+        
     }
 
     .fisica2 .list1 {
@@ -245,6 +230,8 @@ nav {
         text-align: left;
         line-height: 25px;
         float: left;
+      
+
     }
 
     .img .img1 {
@@ -256,6 +243,8 @@ nav {
         text-align: left;
         line-height: 25px;
         float: left;
+      
+
     }
 
     .kinesio .kinesio1{
@@ -267,6 +256,8 @@ nav {
         text-align: left;
         line-height: 25px;
         float: left;
+       
+
     }
     
     .kinesio .kinesio1 .img1{
@@ -278,6 +269,8 @@ nav {
         text-align: left;
         line-height: 25px;
         float: left;
+      
+
     }
 
     .list .list1 {
@@ -289,6 +282,9 @@ nav {
         text-align: left;
         line-height: 25px;
         float: left;
+    
+
+
     }
 
     .form .contacto .form1 {
@@ -300,6 +296,8 @@ nav {
         text-align: left;
         line-height: 25px;
         float: left;
+     
+
     }
 
     legend{
@@ -314,6 +312,7 @@ nav ul li {
     color: #fff;
     font-size: 20px;
     line-height: 30px;
+   
 }
 
 a:hover {
@@ -334,6 +333,7 @@ aside ol li {
     color: rgb(66, 30, 199);
     font-size: 20px;
     line-height: 30px;
+  
 
 }
 
@@ -350,14 +350,7 @@ footer {
     text-align: center;
     height: 50px;
     line-height: 50px;
+   
 
 }
 
-@media (max-width: 0px) {
-  section .main-section {
-        flex-direction: column;
-    }
-
-
-
-}
