@@ -49,7 +49,7 @@ nav {
 
 .grid-layout1 .list {
     background-color: rgb(247, 245, 245);
-    border: 4px solid black;
+    border: 1px solid black;
     width: 1250px;
     height: 70px;
     margin: 15px;
@@ -62,7 +62,7 @@ nav {
 .grid-layout2 {
     background-color: rgb(247, 245, 245);
     grid-template-columns: auto auto ;
-    border: 4px solid black;
+    border: 1px solid black;
     width: 1250px;
     height: 400px;
     margin: 15px;
@@ -76,7 +76,7 @@ nav {
 
 .grid-layout3 .section-1 {
     background-color: rgb(247, 245, 245);
-    border: 4px solid black;
+    border: 1px solid black;
     text-align: left;
     width: 1250px;
     height: 30px;
@@ -89,7 +89,7 @@ nav {
 
 .grid-layout4 .section-2 {
     background-color: rgb(247, 245, 245);
-    border: 4px solid black;
+    border: 1px solid black;
     text-align:center;
     width: 1250px;
     height: 100px;
@@ -102,7 +102,7 @@ nav {
 
 .grid-layout5 .section-3 {
     background-color: rgb(247, 245, 245);
-    border: 4px solid black;
+    border: 1px solid black;
     text-align:center;
     width: 1250px;
     height: 120px;
@@ -115,7 +115,7 @@ nav {
 
 .grid-layout6 .section-4 {
     background-color: rgb(247, 245, 245);
-    border: 4px solid black;
+    border: 1px solid black;
     text-align:center;
     width: 1250px;
     height: 120px;
@@ -128,7 +128,7 @@ nav {
 
 .grid-layout7 .form1 {
     background-color: rgb(247, 245, 245);
-    border: 4px solid black;
+    border: 1px solid black;
     text-align:center;
     width: 500px;
     height: 500px;
@@ -141,7 +141,7 @@ nav {
 
 .grid-layout8 .form1 {
     background-color: rgb(247, 245, 245);
-    border: 4px solid black;
+    border: 1px solid black;
     text-align:center;
     width: 500px;
     height: 500px;
@@ -154,37 +154,33 @@ nav {
 
 .terapia .img{
     background-color: rgb(247, 245, 245);
-    border: 4px solid black;
+    border: 1px solid black;
     width: 1250px;
     height: 500px;
     margin: 15px;
     text-align: center;
     line-height: 10px;
     float: left;
-    min-width: 500px;
-    max-width: 1300px;
-    margin-bottom: 0px;
+   
 }
 
 
 .terapia1 .img {
     background-color: rgb(247, 245, 245);
-    border: 4px solid black;
+    border: 1px solid black;
     width: 1250px;
     height: 150px;
     margin: 15px;
     text-align: left;
     line-height: 25px;
     float: left;
-    min-width: 500px;
-    max-width: 1300px;
-    margin-bottom: 0px;
+    
 
 }
 
 .terapia2 .terapia2 {
     background-color: rgb(247, 245, 245);
-    border: 4px solid black;
+    border: 1px solid black;
     width: 1250px;
     height: 250px;
     margin: 15px;
@@ -197,7 +193,7 @@ nav {
 
     .terapia2 .list1 {
         background-color: rgb(247, 245, 245);
-        border: 4px solid black;
+        border: 1px solid black;
         width: 1250px;
         height: 100px;
         margin: 15px;
@@ -211,7 +207,7 @@ nav {
 
     .fisica1 .section-1 {
         background-color: rgb(247, 245, 245);
-        border: 4px solid black;
+        border: 1px solid black;
         width: 1250px;
         height: 250px;
         margin: 15px;
@@ -223,7 +219,7 @@ nav {
 
     .fisica2 .list1 {
         background-color: rgb(247, 245, 245);
-        border: 4px solid black;
+        border: 1px solid black;
         width: 1250px;
         height: 180px;
         margin: 15px;
@@ -236,7 +232,7 @@ nav {
 
     .img .img1 {
         background-color: rgb(247, 245, 245);
-        border: 4px solid black;
+        border: 1px solid black;
         width: 350px;
         height: 180px;
         margin: 15px;
@@ -249,7 +245,7 @@ nav {
 
     .kinesio .kinesio1{
         background-color: rgb(247, 245, 245);
-        border: 4px solid black;
+        border: 1px solid black;
         width: 1250px;
         height: 350px;
         margin: 15px;
@@ -262,7 +258,7 @@ nav {
     
     .kinesio .kinesio1 .img1{
         background-color: rgb(247, 245, 245);
-        border: 4px solid black;
+        border: 1px solid black;
         width: 250px;
         height: 250px;
         margin: 15px;
@@ -275,7 +271,7 @@ nav {
 
     .list .list1 {
         background-color: rgb(247, 245, 245);
-        border: 4px solid black;
+        border: 1px solid black;
         width: 1250px;
         height: 300px;
         margin: 15px;
@@ -289,7 +285,7 @@ nav {
 
     .form .contacto .form1 {
         background-color: rgb(247, 245, 245);
-        border: 4px solid black;
+        border: 1px solid black;
         width: 1250px;
         height: 300px;
         margin: 15px;
@@ -353,4 +349,22 @@ footer {
    
 
 }
+
+
+@media(max-width: 480px){
+.container{
+background-color: #fff;
+height: 768px;
+}
+}
+
+@media(min-width: 800px){
+    .container{
+    background-color: #fff;
+    height: 700px;
+    }    
+    }
+
+
+
 
