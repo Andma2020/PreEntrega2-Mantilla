@@ -1,0 +1,396 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Abel;
+  src: url(../assets/fonts/Abel-Regular.ttf);
+}
+header h1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  width: 1250px;
+  height: 100px;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: auto;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  border-bottom: 10px solid #fff;
+  font-size: 50px;
+  font-family: Abel;
+}
+
+.img:hover {
+  transform: scale(0.9);
+}
+
+.grid-layout1 .nav .list {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  padding: auto;
+  width: 1250px;
+  height: 50px;
+  margin: 5px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-right: auto;
+  text-align: left;
+  float: left;
+  font-family: Abel;
+}
+
+.grid-layout2 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  grid-template-columns: auto auto;
+  border: 1px solid black;
+  padding: 10px;
+  width: 1250px;
+  height: 400px;
+  margin-top: auto;
+  text-align: left;
+  line-height: 150px;
+  float: left;
+  align-items: left;
+  font-family: Abel;
+}
+
+.grid-layout2 h2 {
+  font-family: Abel-Regular, ttf;
+  font-size: 30px;
+  padding: 10px;
+  font-family: Abel;
+}
+
+.img {
+  transform: scaleX(1);
+}
+
+.grid-layout3 .section-1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  width: 1250px;
+  height: 30px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 15px;
+  float: left;
+  font-family: Abel;
+  font-size: 22px;
+}
+
+.grid-layout4 .section-2 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  width: 1250px;
+  height: 80px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.grid-layout5 .section-3 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  width: 1250px;
+  height: 110px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.grid-layout6 .section-4 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  width: 1250px;
+  height: 120px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.grid-layout7 .form1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  width: 550px;
+  height: 500px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 22px;
+  float: right;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.grid-layout8 .form1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  width: 550px;
+  height: 500px;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.terapia h2 {
+  font-family: Abel;
+  font-size: 30px;
+}
+
+.terapia .img {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  width: 1250px;
+  height: 500px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 10px;
+  float: left;
+}
+
+.terapia2 .terapia2 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  padding: 10px;
+  width: 1250px;
+  height: 230px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.terapia2 .list1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  width: 1250px;
+  height: 90px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.fisica1 h2 {
+  font-family: Abel;
+  font-size: 30px;
+}
+
+.fisica1 .section-1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  width: 1250px;
+  padding: 10px;
+  height: 250px;
+  margin: auto;
+  text-align: left;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.fisica2 .list1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  width: 1250px;
+  height: 180px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.img .img1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  height: 180px;
+  margin: 30px;
+  margin-top: 10px;
+  float: right;
+}
+
+.kinesio h1 {
+  font-family: Abel;
+  font-size: 30px;
+}
+
+.kinesio .kinesio1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  padding: 10px;
+  width: 1250px;
+  height: 400px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.kinesio .kinesio1 .img1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  width: 250px;
+  height: 180px;
+  margin: 15px;
+  text-align: left;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.list .list1 {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  width: 1250px;
+  height: 210px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 22px;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.form h2 {
+  font-family: Abel;
+  font-size: 30px;
+}
+
+.form {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  border: 1px solid black;
+  padding: 30px;
+  text-align: center;
+  width: 500px;
+  height: 450px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.form p {
+  margin-bottom: 2ch;
+  text-align: center;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.form .control {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  text-align: center;
+  width: 50%;
+  padding: 1px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #0a0a0a;
+  font-size: 20px;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+.form .boton {
+  background: linear-gradient(15deg, rgb(236, 202, 213), rgb(239, 236, 236));
+  text-align: center;
+  width: 50%;
+  padding: 1px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #0a0a0a;
+  font-size: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 1px;
+  color: #100f0f;
+  text-align: left;
+  margin: 10px;
+  margin-left: auto;
+  float: left;
+  font-family: Abel;
+  font-size: 20px;
+}
+
+a:hover {
+  background-color: none;
+  color: #0a0a0a;
+}
+
+.main-section p:nth-child(1) {
+  color: #0a0a0a;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  height: 50px;
+  font-family: Abel;
+  font-size: 35px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    background-color: #fff;
+    height: 768px;
+  }
+}
+@media (min-width: 1000px) {
+  .container {
+    background-color: #fff;
+    height: 700px;
+  }
+}/*# sourceMappingURL=prueba.css.map */
